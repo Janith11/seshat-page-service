@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/pages")
+@RequestMapping("/pages")
 public class PageController {
 
     private final PageService pageService;

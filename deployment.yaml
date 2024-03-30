@@ -15,7 +15,7 @@ spec:
         app: seshat-page-service
     spec:
       containers:
-        - name: issue-management-service
+        - name: seshat-page-service
           image: gcr.io/seshat-417507/seshat-page-service:prod
           imagePullPolicy: Always
           ports:
