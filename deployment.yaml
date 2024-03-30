@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: issue-management-service
-          image: gcr.io/seshat/seshat-page-service:prod
+          image: gcr.io/seshat-417507/seshat-page-service:prod
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
